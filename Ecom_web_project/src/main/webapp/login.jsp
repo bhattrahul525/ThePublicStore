@@ -48,7 +48,14 @@
 		</div>
 	</div>
 </div>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <%@include file="components/comman_modals.jsp" %>
 <div class="footer">

@@ -33,7 +33,7 @@ if(user==null){
 			<div class="card">
 				<div class="card-body">
 					<h3 class="text-center mb-5 ">Shippping Details</h3>	
-					<form action="recipt.jsp">
+					<form action="credit_card.jsp">
   
   
   <div class="form-group">
@@ -47,11 +47,12 @@ if(user==null){
    <div class="form-group">
     <label for="exampleFormControlTextarea1"style="font-size:20px;">Address : <%= user.getUserAddress() %></label>
     </div>
-  
-  <label for="exampleFormControlTextarea1"style="font-size:20px;">Mode of payment : </label>
-  <button class="btn btn-outline-success mt-3" onclick="#">Pay Now</button> or
-  	 <button class="btn btn-outline-primary mt-3" onclick="#">COD</button>
-  	
+    
+    
+    
+  <div class="container text-center">
+    <button class="btn btn-outline-success mt-3" onclick="#">Pay Now</button> 
+  	 </div>
   			</form>
 				</div>
 			</div>
